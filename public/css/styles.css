@@ -1,0 +1,80 @@
+/* AJAX LOAD */
+.ajax-load {z-index: 1040;position: fixed;top: 0;left: 0;width: 100%;height: 100%;opacity:1;display: none;justify-content: center;align-items: center;background-color: rgba(0,0,0,0.85);transition: all 0.5s ease;}
+.ajax-load-box { margin: auto; text-align: center; color: #ffffff;  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);}
+.ajax-load-box-circle {width: 40px; height: 40px; border: 8px solid rgba(0,0,0,0); border-top: 8px solid rgba(0,183,229,0.9); border-bottom: 8px solid rgba(0,183,229,0.9); border-radius: 50%; margin: 20px auto; -webkit-animation: spin 1.2s linear infinite; -o-animation: spin 1.2s linear infinite; animation: spin 1.2s linear infinite;}
+@-webkit-keyframes spin { 0% { -webkit-transform: rotate(0deg); } 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* LOGIN */
+.content-login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f6f9;
+    background-image: url(../../img/warehouse_prog.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.content-login .logo-bb {
+    background-color: #fff;
+    width: 130px;
+    height: 130px;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 14%), 0 7px 5px -5px rgb(0 0 0 / 30%);
+    margin-bottom: 15px;
+}
+
+/* CUSTOM ADMINLTE */
+.ajax-link {cursor: pointer;}
+.dark-mode a { color: #FFF;}
+.badge {font-size: 0.8em;}
+.pointer {cursor: pointer;}
+.dataTable {width: 100% !important;}
+.span-error {position: absolute;bottom: -1.3em;}
+.modal-content.modal-success {border-top: 3px solid #28a745;}
+.modal-content.modal-info {border-top: 3px solid var(--info);}
+.modal-content.modal-danger {border-top: 3px solid #dc3545;}
+.direct-chat-messages {height: 500px;}
+
+.btn.btn-icon {display: flex; flex-direction: column; justify-content: center; align-items: center; width: 4.5rem; height: 4.5rem;}
+.btn.btn-icon i {font-size: 2em;}
+
+.info-box.my-info {flex-wrap: wrap; margin-top: 20px;}
+.info-box.my-info .info-box-icon {height: 70px;margin-top: -30px;box-shadow: 0 4px 10px 0 rgb(0 0 0 / 14%), 0 7px 5px -5px rgb(0 0 0 / 30%);}
+.info-box.my-info .info-box-content{line-height: initial;}
+.info-box.my-info .info-box-text {font-size: 1.2em; margin: 0; padding: 0;}
+.info-box.my-info .info-box-number {font-size: 1.5em; margin: 0; padding: 0;}
+.info-box.my-info .info-box-footer {font-size: 1.15em;}
+
+/* BADGE */
+.dark-mode a.badge-success:hover {color: var(--dark);}
+.dark-mode a.badge-info:hover {color: var(--dark);}
+.dark-mode a.badge-warning:hover {color: var(--dark);}
+.dark-mode a.badge-danger:hover {color: var(--dark);}
+
+/* BG Tables */
+.tr-on-success{ background-color: #96ceb4; }
+.tr-on-warning{ background-color: #ffeead; }
+.tr-on-success:hover {background-color: #588c7e; color: #FFF; }
+.tr-on-warning:hover {background-color: #f2ae72; }
+
+/* SELECT2 */
+.select2-container--default .select2-selection--single {
+    border: 1px solid #ced4da !important;
+    padding: 0.46875rem 0.75rem !important;
+    height: calc(2.25rem + 2px) !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #444 !important;
+    line-height: 33px !important;
+    font-size: 1rem;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    padding-top: 40px;
+}
+.dark-mode .select2-selection--single {
+    background-color: #343a40 !important;
+    border-color: #6c757d !important;
+}
+.dark-mode .select2-selection--single .select2-selection__rendered {
+    color: #fff !important;
+}

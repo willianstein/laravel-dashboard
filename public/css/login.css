@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900);
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Montserrat, 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #000;
+    background-image: url("../img/background-spot.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body:before {
+    content: "";
+    position: fixed;
+    background-image: url("../img/background-login.png");
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.45;
+}
+
+.box-login {
+    padding: var(--space-normal);
+    border-radius: var(--radius-normal);
+    box-shadow: 0 15px 20px rgba(0,0,0,0.4);
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-login img {
+    width: 200px;
+}
+
+.box-login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: var(--space-normal);
+}
+
+.box-login form input,
+.box-login form button {
+    outline: none;
+    padding: var(--space-small);
+    border: 1px solid #ccc;
+    background-color: transparent;
+    margin-top: var(--space-normal);
+    font-size: 1em;
+}
+
+.box-login form input {
+    width: 100%;
+    color: #FFF;
+}
+
+.box-login form button {
+    width: 100%;
+    border-color: #0084ff;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0084ff;
+    font-size: 0.85em;
+}
+
+.box-login form button:hover {
+    cursor: pointer;
+    color: #FFF;
+    background-color: #0084ff;
+}
+
+.box-login a {
+    display: block;
+    color: #0084ff;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box-login a:hover,
+.box-login a:active {
+    color: #FFF;
+}
+
+
