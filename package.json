@@ -1,19 +1,13 @@
 {
     "private": true,
+    "type": "module",
     "scripts": {
         "dev": "vite",
         "build": "vite build"
     },
     "devDependencies": {
         "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.2",
-        "lodash": "^4.17.19",
-        "postcss": "^8.1.14",
+        "laravel-vite-plugin": "^0.8.0",
         "vite": "^4.0.0"
-    },
-    "dependencies": {
-        "@amcharts/amcharts5": "^5.4.6",
-        "@amcharts/amcharts5-fonts": "^5.0.1",
-        "@amcharts/amcharts5-geodata": "^5.1.1"
     }
 }
