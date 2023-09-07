@@ -1,0 +1,7 @@
+# Folders #
+.idea
+vendor
+
+# Files #
+exemplos/*.xml
+composer.lock

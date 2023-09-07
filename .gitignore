@@ -6,7 +6,7 @@
 /storage/*.key
 storage/app
 storage/debugbar
-/vendor
+# /vendor
 .env
 .env.backup
 .env.production
